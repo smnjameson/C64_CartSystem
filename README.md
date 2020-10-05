@@ -18,3 +18,5 @@ C:\C64\Tools\Vice\x64.exe -logfile ./bin/vicelog.txt -moncommands ./bin/cart.vs 
 In the setup at the top of cart.asm change the #define MAGICDESK to match the cart type seelcted in the make file
 
 Please note some functionality is not avaialbe in D64 mode, such as static banking. Demo provided should work for all cart types MAGICDESK, EASYFLASH and GMOD2. D64 demo to follow at a later date.
+
+Also note NODEJS is required in order to run the cartify.js step of the makefile
