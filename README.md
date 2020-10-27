@@ -6,7 +6,7 @@ Change the makefile to suit your project and environment, replacing the paths as
 echo off
 
 rem Kick assembling
-java -cp *c:\C64\Tools\KickAssembler\kickass-cruncher-plugins-2.0.jar;c:\C64\Tools\KickAssembler\KickAss.jar cml.kickass.KickAssembler cart.asm -vicesymbols -showmem -odir ./bin
+java -cp c:\C64\Tools\KickAssembler\KickAss.jar cml.kickass.KickAssembler cart.asm -vicesymbols -showmem -odir ./bin
 
 rem Cart building
 node ./cartloader/cartify.js ./bin/cart.crt MAGICDESK
